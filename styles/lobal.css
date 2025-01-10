@@ -1,0 +1,350 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  /* Navbar styling */
+  .navbar {
+    background-color: #333;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav-links li {
+    margin: 0 20px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  /* Hover effect */
+  .nav-links a:hover {
+    color: #ff7f50; /* Change color on hover */
+  }
+
+
+
+
+
+
+
+  /* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  /* Image container styling */
+  .image-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Styling the main image */
+  .main-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling the description area */
+  .image-description {
+    margin-top: 20px;
+  }
+  
+  .image-description h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .image-description p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 768px) {
+    .image-description h1 {
+      font-size: 2rem;
+    }
+  
+    .image-description p {
+      font-size: 1rem;
+    }
+  }
+
+
+
+
+  /* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  /* Container to hold both image and text */
+  .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center; /* Vertically center items */
+  }
+  
+  /* Styling for the image div */
+  .image-div {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for the text div */
+  .text-div {
+    flex: 1;
+    padding-left: 20px;
+  }
+  
+  .text-div h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .text-div p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .image-div {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  
+    .text-div {
+      padding-left: 0;
+    }
+  
+    .text-div h1 {
+      font-size: 1.8rem;
+    }
+  
+    .text-div p {
+      font-size: 1rem;
+    }
+  }
+  
+  
+  /* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  /* Container for the scrolling images */
+  .image-scroll-container {
+    width: 100%;
+    overflow: hidden; /* Hides any part of the images that overflows */
+    position: relative;
+    padding: 20px 0;
+  }
+  
+  .image-wrapper {
+    display: flex; /* Flexbox to display images in a row */
+    animation: scroll-images 12s linear infinite; /* Set the animation */
+  }
+  
+  .scrolling-image {
+    width: 150px; /* Fixed width for the images */
+    height: 100px; /* Fixed height for the images */
+    margin-right: 20px; /* Space between the images */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Animation for the scrolling effect */
+  @keyframes scroll-images {
+    0% {
+      transform: translateX(100%); /* Start from the right */
+    }
+    100% {
+      transform: translateX(-100%); /* Move to the left */
+    }
+  }
+  
+  /* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding-bottom: 100px; /* Adds space for the footer */
+  }
+  
+  /* Footer Styling */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Footer Links */
+  .footer-links {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .footer-links h4 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: #ff7f50;
+  }
+  
+  .footer-links ul {
+    list-style-type: none;
+  }
+  
+  .footer-links ul li {
+    margin: 10px 0;
+  }
+  
+  .footer-links ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-links ul li a:hover {
+    color: #ff7f50;
+  }
+  
+  /* Social Media Section */
+  .social-media {
+    flex: 1;
+    margin-left: 20px;
+  }
+  
+  .social-media h4 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: #ff7f50;
+  }
+  
+  .social-media ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .social-media ul li {
+    display: inline;
+  }
+  
+  .social-media .social-icon {
+    font-size: 2rem;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .social-media .social-icon:hover {
+    color: #ff7f50;
+  }
+  
+  /* Footer Info Section */
+  .footer-info {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #bbb;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .footer-links, .social-media {
+      margin: 10px 0;
+    }
+  }
+  
