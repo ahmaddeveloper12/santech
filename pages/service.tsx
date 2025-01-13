@@ -1,3 +1,4 @@
+
 import React from 'react'
 
 const Service = () => {
@@ -34,9 +35,12 @@ const Service = () => {
   </div>
 
   
+  <script src="https://kit.fontawesome.com/a076d05399.js" async></script>
+
+
 
  
-  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  {/* <script src="https://kit.fontawesome.com/a076d05399.js"></script> */}
     </div>
   )
 }
