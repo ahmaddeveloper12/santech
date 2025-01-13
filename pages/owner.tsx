@@ -9,7 +9,7 @@ const Owner = () => {
           <div className="profile-img">
             {/* Replace <img> with <Image> for optimization */}
             <Image 
-              src="https://avatars.githubusercontent.com/u/179399816?v=4"
+              src="https://img.freepik.com/free-photo/crazy-man-sad-expression_1194-4663.jpg?ga=GA1.1.1415032807.1735110773&semt=ais_tags_boosted"
               alt="Owner Picture"
               className="owner-image"
               width={150}  // Specify the width for the Image component

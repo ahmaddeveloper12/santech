@@ -25,7 +25,7 @@ const Home = () => {
       <div className="container">
         <div className="image-div">
           <Image 
-            src="https://img.freepik.com/free-photo/looking-camera-young-student-boy-sitting-desk-with-school-tools-holding-book_141793-96628.jpg?ga=GA1.1.1415032807.1735110773&semt=ais_hybrid"
+            src="https://img.freepik.com/free-photo/male-teacher-doing-english-lesson-online-his-students_23-2148963020.jpg?ga=GA1.1.1415032807.1735110773&semt=ais_tags_boosted"
             alt="Image"
             width={500}  // Add width for the Image component
             height={300} // Add height for the Image component
@@ -46,7 +46,7 @@ const Home = () => {
           height={300}
         />
         <Image 
-          src="https://img.freepik.com/free-photo/man-with-grey-folder-discussing-with-colleagues-while-checking_144627-50575.jpg?ga=GA1.1.1415032807.1735110773&semt=ais_hybrid"
+          src="https://img.freepik.com/free-photo/man-using-laptop-office-doing-document-analysis_1150-26847.jpg?ga=GA1.1.1415032807.1735110773&semt=ais_tags_boosted"
           alt="Scrolling Image"
           className="scrolling-image"
           width={500}
