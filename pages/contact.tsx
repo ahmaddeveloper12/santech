@@ -1,4 +1,4 @@
-import Image from 'next/image';  // You need to use this for optimized image loading
+import Image from 'next/image'; // Import Image for optimized image loading
 import React from 'react'
 
 const Contact = () => {
@@ -6,13 +6,12 @@ const Contact = () => {
     <div>
       <div className="company-card">
         <div className="card-header">
-          {/* Use the Image component for optimized image loading */}
+          {/* Use the Image component to display an image */}
           <Image
-            src="https://img.freepik.com/premium-photo/vector-logo-letter-s-color-silhouette-dark-backgroundquot_1025557-3611.jpg?ga=GA1.1.1415032807.1735110773&semt=ais_hybrid"
+            src="/path/to/your/image.jpg" // Provide the image source here
             alt="Company Logo"
-            className="company-logo"
-            width={150}  // Add appropriate width
-            height={150} // Add appropriate height
+            width={150} // Set the width for the image
+            height={150} // Set the height for the image
           />
           <h1 className="company-name">Santech</h1>
         </div>
