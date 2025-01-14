@@ -4,6 +4,8 @@ import React from 'react'
 const Service = () => {
   return (
     <div>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9583800882921435"
+     crossOrigin="anonymous"></script>
        <div className="services-container">
     <h1 className="page-title">Our Services</h1>
     <div className="services">

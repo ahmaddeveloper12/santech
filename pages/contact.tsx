@@ -4,6 +4,8 @@ import React from 'react'
 const Contact = () => {
   return (
     <div>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9583800882921435"
+     crossOrigin="anonymous"></script>
       <div className="company-card">
         <div className="card-header">
           {/* Use the Image component to display an image */}

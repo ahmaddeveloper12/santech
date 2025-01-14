@@ -25,6 +25,8 @@ const Home = () => {
  <br />
  
 <header>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9583800882921435"
+     crossOrigin="anonymous"></script>
         <nav className="navbar">
             <div className="logo">
                 <a href="#">santech</a>
