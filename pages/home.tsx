@@ -35,10 +35,10 @@ const Home = () => {
                 <li><a href="./service">Services</a></li>
                 <li><a href="./contact">Contact</a></li>
             </ul>
-            <div className="search-container">
+            {/* <div className="search-container">
                 <input type="text" placeholder="Search..."/>
                 <button>Search</button>
-            </div>
+            </div> */}
         </nav>
     </header>
       <main>
