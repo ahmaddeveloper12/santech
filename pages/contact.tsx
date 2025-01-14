@@ -4,16 +4,15 @@ import React from 'react'
 const Contact = () => {
   return (
     <div>
-      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9583800882921435"
-     crossOrigin="anonymous"></script>
+    
       <div className="company-card">
         <div className="card-header">
           {/* Use the Image component to display an image */}
           <Image
             src="/path/to/your/image.jpg" // Provide the image source here
             alt="Company Logo"
-            width={150} // Set the width for the image
-            height={150} // Set the height for the image
+            width={150} 
+            height={150} 
           />
           <h1 className="company-name">Santech</h1>
         </div>

@@ -7,8 +7,7 @@ const Owner = () => {
       <div className="owner-info-container">
         <div className="profile-card">
           <div className="profile-img">
-          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9583800882921435"
-     crossOrigin="anonymous"></script>
+         
             {/* Replace <img> with <Image> for optimization */}
             <Image 
               src=""

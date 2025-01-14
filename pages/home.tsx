@@ -25,8 +25,7 @@ const Home = () => {
  <br />
  
 <header>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9583800882921435"
-     crossOrigin="anonymous"></script>
+
         <nav className="navbar">
             <div className="logo">
                 <a href="#">santech</a>
@@ -46,14 +45,14 @@ const Home = () => {
         <div className="container">
           
             <h1>Welcome to Our Beautiful Site</h1>
-            <nav>
+            {/* <nav>
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Services</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
-            </nav>
+            </nav> */}
         </div>
     </main>
 
